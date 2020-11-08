@@ -10,12 +10,14 @@ DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN,cdn.registerdisney.go.com
+DOMAIN,global.edge.bamgrid.com
 
 # > HBO NOW
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbonow.com
+USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbomax.com
 
 
@@ -32,7 +34,6 @@ DOMAIN-SUFFIX,pbs.org
 
 
 
-
 # > CBS
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbsstatic.com
@@ -44,3 +45,17 @@ DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypalobjects.com
 # -britbox
 DOMAIN-SUFFIX,britbox.com
+
+# Telegram US
+IP-CIDR,91.108.12.0/27,no-resolve
+IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR6,2001:b28:f23d:f001::e/128,no-resolve
+IP-CIDR6,2001:b28:f23d:f003::e/128,no-resolve
+IP-CIDR6,2001:b28:f23d:f001::a/128,no-resolve
+IP-CIDR6,2001:b28:f23d:f003::a/128,no-resolve
+
+# 嘿嘿
+DOMAIN-SUFFIX,avbebe.com
+DOMAIN-SUFFIX,v.avgigi.com
+# nex-emby
+DOMAIN-SUFFIX,emby.nexitally.com
