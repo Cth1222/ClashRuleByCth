@@ -1,1 +1,4 @@
 IP-CIDR,108.177.125.0/24,no-resolve
+DOMAIN,androidtvlauncherxfe-pa.googleapis.com
+DOMAIN,play.googleapis.com
+DOMAIN,clients3.google.com
